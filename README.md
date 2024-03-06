@@ -14,13 +14,13 @@ Esta versión (Versión 1.0) de la página web de CINE UNICAH destaca por su enf
 Para más información sobre el proyecto, consulta la documentación en https://cineunicah.gitbook.io/documentacion/ para usuarios o desarrolladores
 
 
-### Desarrolladores:
+### Colaboradores:
 
 * Alberto Paz
-* Brayan Jose Peña Perez
+* Brayan Peña
 * Douglas Aguilera
 * Fabiola Molina
 * María Gonzales
 
 
-## **¡Gracias por tu interés en CineUniCAH2024!**
+## **¡Gracias por tu interés en Cine Unicah!**
