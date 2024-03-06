@@ -1,0 +1,39 @@
+body {
+    -webkit-font-smoothing: 'robo condensend';
+    text-rendering: optimizelegibility;
+    font-size: 14px;
+  background: #E5E5E5;
+}
+h5{
+    
+}
+h6{
+    font-size: 14px;
+}  
+
+ul li {
+    position: relative;
+    padding-left: 5px;
+    margin: 10px 0;
+    margin-left: 12px;
+    color: #999;
+    list-style-type: none;
+}
+
+}
+h1,h3,h5,h6,ul,li, {
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+ h5,h4,h2{
+    color: #B2151C;
+    text-align: left;
+    font-family: 'Roboto Condensend' ;
+    font-size: 22px;
+
+}
+p,li{
+    font: 'Roboto Condensend';
+    font-size: 18px;
+}

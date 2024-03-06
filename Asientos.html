@@ -1,0 +1,174 @@
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ELECCION DE ASIENTO</title>
+    <link rel="shortcut icon" href="img/icono.jpg">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/HF.css">
+    <link rel="stylesheet" href="css/stylee.css">
+     <!--Iconos de las redes del cine-->
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="logo"><a href="PantallaPrincipal.html"><img src="img/logo_finalAzul.png"></a></div>
+            
+            <nav>
+                <a href="Cartelera.html">Cartelera</a>
+                <a href="prooximamente.html">Proximamente</a>
+                <a href="dulceria.html">Dulceria</a>
+                
+            </nav>
+        </div>
+    </header>
+  <h1>
+        COMPRA DE ENTRADAS
+      </h1>
+  
+  <div class="entrada">
+        
+        <img src="img/asientos.PNG" alt="">
+      </div>
+  <body>
+    <div class="contenedor">
+      <div class="movie-container" hidden>
+        <label>Pick a movie:</label>
+        <select id="movie"></select>
+      </div>
+
+      <div class="container">
+        <div class="screen"></div>
+        <div class="row">
+          <h3>A</h3><div class="seat rueda"><center><H4>A1</H4></center></div>
+          <div class="seat rueda"><center><H4>A2</H4></center></div>
+          <div class="seat occupied"><center><H4>A3</H4></center></div>
+          <div class="seat occupied"><center><H4>A4</H4></center></div>
+          <div class="seat"><center><H4>A5</H4></center></div>
+          <div class="seat"><center><H4>A6</H4></center></div>
+          <div class="seat"><center><H4>A7</H4></center></div>
+          <div class="seat"><center><H4>A8</H4></center></div>
+        </div>
+        <div class="row">
+         <h3>B</h3> <div class="seat"><center><H4>B1</H4></center></div>
+          <div class="seat"><center><H4>B2</H4></center></div>
+          <div class="seat"><center><H4>B3</H4></center></div>
+          <div class="seat"><center><H4>B4</H4></center></div>
+          <div class="seat"><center><H4>B5</H4></center></div>
+          <div class="seat"><center><H4>B6</H4></center></div>
+          <div class="seat"><center><H4>B7</H4></center></div>
+          <div class="seat"><center><H4>B8</H4></center></div>
+        </div>
+
+        <div class="row">
+          <H3>C</H3><div class="seat"><center><H4>C1</H4></center></div>
+          <div class="seat"><center><H4>C2</H4></center></div>
+          <div class="seat"><center><H4>C3</H4></center></div>
+          <div class="seat"><center><H4>C4</H4></center></div>
+          <div class="seat"><center><H4>C5</H4></center></div>
+          <div class="seat"><center><H4>C6</H4></center></div>
+          <div class="seat"><center><H4>C7</H4></center></div>
+          <div class="seat"><center><H4>C8</H4></center></div>
+        </div>
+
+        <div class="row">
+          <h3> D</h3><div class="seat"><center><H4>D1</H4></center></div>
+          <div class="seat"><center><H4>D2</H4></center></div>
+          <div class="seat"><center><H4>D3</H4></center></div>
+          <div class="seat"><center><H4>D4</H4></center></div>
+          <div class="seat"><center><H4>D5</H4></center></div>
+          <div class="seat"><center><H4>D6</H4></center></div>
+          <div class="seat"><center><H4>D7</H4></center></div>
+          <div class="seat"><center><H4>D8</H4></center></div>
+        </div>
+
+        <div class="row">
+          <H3>E</H3><div class="seat"><center><H4>E1</H4></center></div>
+          <div class="seat"><center><H4>E2</H4></center></div>
+          <div class="seat"><center><H4>E3</H4></center></div>
+          <div class="seat"><center><H4>E4</H4></center></div>
+          <div class="seat"><center><H4>E5</H4></center></div>
+          <div class="seat"><center><H4>E6</H4></center></div>
+          <div class="seat"><center><H4>E7</H4></center></div>
+          <div class="seat"><center><H4>E8</H4></center></div>
+        </div>
+
+        <div class="row">
+          <H3>F</H3><div class="seat"><center><H4>F1</H4></center></div>
+          <div class="seat"><center><H4>F2</H4></center></div>
+          <div class="seat"><center><H4>F3</H4></center></div>
+          <div class="seat"><center><H4>F4</H4></center></div>
+          <div class="seat"><center><H4>F5</H4></center></div>
+          <div class="seat"><center><H4>F6</H4></center></div>
+          <div class="seat occupied"><center><H4>F7</H4></center></div>
+          <div class="seat occupied"><center><H4>F8</H4></center></div>
+        </div>
+      </div>
+      <script src="script.js"></script>
+      <ul class="showcase">
+        <li>
+          <div class="seat"></div>
+          <small>Butaca Normal</small>
+        </li>
+
+        <li>
+          <div class="seat selected"></div>
+          <small>Seleccionado</small>
+        </li>
+        
+
+        <center>
+
+          <li>
+          <div  class="seat occupied"></div>
+          <small>Ocupado</small>
+        </li>
+        </center>
+        
+        
+        <li>
+          <div class="seat rueda"></div>
+          <small>Silla de Rueda</small>
+        </li>
+        <li>
+          <div style="display: flex; gap: 10px">
+            
+            <a href="combos.php"><button class="boton">Continuar</button></a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="img/logo_finalAzul.png" alt="Logo del Cine">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <a href="quienes somos.html"><p>QUINES SOMOS</p></a>
+                
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="https://www.facebook.com/Cine-Unicah-102036682552290/" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/cineunicah/?igshid=YmMyMTA2M2Y=" class="fa fa-instagram"></a>
+                    <a href="https://twitter.com/cineunicah?s=21&t=rflPz_9uheda10ITMVgeCw" class="fa fa-twitter"></a>
+                    <a href="https://youtube.com/channel/UCaKfAXgwX6qvn5RGqqxPLHA" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2022 <b>CINE UNICAH</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+    
+      
+  
+  </body>
+</html>

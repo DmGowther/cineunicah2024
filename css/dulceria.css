@@ -1,0 +1,37 @@
+.entrada{
+  display: flex;
+  justify-content: center;
+  background-color: #0a141d;
+  padding: 20px;
+}
+.contenedor{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.contenedor1{
+  overflow: hidden;
+}
+.combo1{
+  float: left;
+  width:540px;
+  height:200px;
+  padding:20px 20px;
+  font-size:15px;
+}
+.combo1 img{
+  border-radius:5px;
+  float:left;
+  margin-right:15px;
+}
+.titulo{
+  font-weight: bold;
+}
+h1{
+  color: #000000;
+  font-size: 22px;
+  font: Roboto condensend;
+}
+body{
+  background: #E5E5E5;
+}

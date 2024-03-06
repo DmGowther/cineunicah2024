@@ -1,0 +1,26 @@
+.entrada{
+    display: flex;
+    justify-content: center;
+    background-color: #0a141d;
+    padding: 10px;
+}
+h5{
+  color: #000000;
+  font-size: 22px;
+  font: Roboto condensend;
+}
+
+.botones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  .btn2{
+    background-color: #0a141d;
+    color: white;
+    text-align: center;
+    padding: 15px 40px;
+}
+body{
+  background: #E5E5E5;
+}
